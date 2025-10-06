@@ -55,7 +55,7 @@ const NAVIGATION_ITEMS = [
 function SideNavLinks() {
     return (
         <nav
-            className="bg-slate-900 text-gray-400 text-[25px] flex flex-col gap-2 font-extrabold"
+            className="bg-slate-900 text-gray-400 text-[22px] sm:text-[24px] md:text-[25px] hidden md:flex flex-col gap-2 font-extrabold "
             role="navigation"
             aria-label="Side navigation"
         >

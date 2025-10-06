@@ -38,13 +38,14 @@ const ProfileCardComponent = ({
     enableMobileTilt = false,
     mobileTiltSensitivity = 5,
     miniAvatarUrl,
-    name = "Javi A. Torres",
-    title = "Software Engineer",
-    handle = "javicodes",
+    name = "Moomen Eltelbany",
+    title = "Front-End Developer",
+    handle = "Moomen",
     status = "Online",
     contactText = "Contact",
     showUserInfo = true,
     onContactClick,
+    denseText = false,
 }) => {
     const wrapRef = useRef(null);
     const cardRef = useRef(null);
@@ -290,7 +291,9 @@ const ProfileCardComponent = ({
     return (
         <div
             ref={wrapRef}
-            className={`pc-card-wrapper ${className}`.trim()}
+            className={`pc-card-wrapper ${
+                denseText ? "pc-dense" : ""
+            } ${className}`.trim()}
             style={cardStyle}
         >
             <section ref={cardRef} className="pc-card">

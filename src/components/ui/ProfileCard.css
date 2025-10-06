@@ -391,6 +391,16 @@
   -webkit-background-clip: text;
 }
 
+/* Dense mode: slightly smaller typography, triggered by .pc-dense on wrapper */
+.pc-dense .pc-details h3 {
+  font-size: min(4.5svh, 2.6em);
+}
+
+.pc-dense .pc-details p {
+  font-size: 14px;
+  top: -10px;
+}
+
 @keyframes glow-bg {
   0% {
     --bgrotate: 0deg;

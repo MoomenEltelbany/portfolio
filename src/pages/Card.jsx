@@ -21,7 +21,7 @@ function About() {
                         enableTilt={true}
                         enableMobileTilt={false}
                         onContactClick={() => navigate("/contact")}
-                        className="bg-slate-900"
+                        className="bg-transparent"
                     />
                 </div>
             </section>
