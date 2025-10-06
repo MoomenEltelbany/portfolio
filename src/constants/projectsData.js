@@ -33,17 +33,17 @@ export const projects = [
         liveUrl: "https://moomeneltelbany.github.io/fast-react-pizza/",
         published: true,
     },
-    {
-        id: 3,
-        title: "World Wise",
-        image: worldWiseImage,
-        description:
-            "A modern web application to keep track of all amazing places you visited",
-        technologies: ["React", "React Router", "CSS Modules"],
-        githubUrl: "https://github.com/MoomenEltelbany/world-wise",
-        liveUrl: "https://my-world-wise-react.vercel.app/",
-        published: true,
-    },
+    // {
+    //     id: 3,
+    //     title: "World Wise",
+    //     image: worldWiseImage,
+    //     description:
+    //         "A modern web application to keep track of all amazing places you visited",
+    //     technologies: ["React", "React Router", "CSS Modules"],
+    //     githubUrl: "https://github.com/MoomenEltelbany/world-wise",
+    //     liveUrl: "https://my-world-wise-react.vercel.app/",
+    //     published: true,
+    // },
     {
         id: 4,
         title: "My Portfolio",
