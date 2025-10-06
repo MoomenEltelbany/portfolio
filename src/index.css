@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Active state for NavLink */
+.active {
+  @apply bg-slate-700 text-white;
+}
