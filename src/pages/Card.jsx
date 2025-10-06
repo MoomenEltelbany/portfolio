@@ -19,7 +19,7 @@ function About() {
                         avatarUrl={image}
                         showUserInfo={true}
                         enableTilt={true}
-                        enableMobileTilt={false}
+                        enableMobileTilt={true}
                         onContactClick={() => navigate("/contact")}
                         className="bg-transparent flex justify-center hover:bg-transparent"
                     />
