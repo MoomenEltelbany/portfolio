@@ -1,6 +1,15 @@
+import { Link } from "react-router-dom";
+
 function ProjectCard({ project }) {
-    const { title, description, technologies, githubUrl, liveUrl, image } =
-        project;
+    const {
+        title,
+        description,
+        technologies,
+        githubUrl,
+        liveUrl,
+        image,
+        published,
+    } = project;
 
     return (
         <div className="bg-slate-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col h-full">
@@ -35,28 +44,34 @@ function ProjectCard({ project }) {
                     </div>
                 </div>
 
-                <div className="flex gap-3 mt-4">
-                    {githubUrl && (
-                        <a
-                            href={githubUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex-1 bg-slate-700 hover:bg-slate-600 text-white text-center py-2 px-4 rounded-md transition-colors duration-200 text-sm"
-                        >
-                            GitHub
-                        </a>
-                    )}
-                    {liveUrl && (
-                        <a
-                            href={liveUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-2 px-4 rounded-md transition-colors duration-200 text-sm"
-                        >
-                            Live Demo
-                        </a>
-                    )}
-                </div>
+                {published ? (
+                    <div className="flex gap-3 mt-4">
+                        {githubUrl && (
+                            <Link
+                                to={githubUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex-1 bg-slate-700 hover:bg-slate-600 text-white text-center py-2 px-4 rounded-md transition-colors duration-200 text-sm"
+                            >
+                                GitHub
+                            </Link>
+                        )}
+                        {liveUrl && (
+                            <Link
+                                to={liveUrl}
+                                target="_blank"
+                                // rel="noopener noreferrer"
+                                className="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-2 px-4 rounded-md transition-colors duration-200 text-sm"
+                            >
+                                Live Demo
+                            </Link>
+                        )}
+                    </div>
+                ) : (
+                    <p className="text-slate-300 bg-slate-900 text-center py-2 px-4 rounded-xl">
+                        Coming Soon...
+                    </p>
+                )}
             </div>
         </div>
     );
