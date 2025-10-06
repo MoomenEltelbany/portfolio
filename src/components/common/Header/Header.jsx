@@ -16,7 +16,7 @@ const Header = () => {
                     role="navigation"
                     aria-label="Main navigation"
                 >
-                    <ul className="hidden md:flex items-center gap-2">
+                    <ul className="hidden lg:flex items-center gap-2">
                         {NAV_ITEMS.map((item) => (
                             <NavItem key={item}>{item}</NavItem>
                         ))}
