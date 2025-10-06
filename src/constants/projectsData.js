@@ -4,6 +4,7 @@ import pizzaImage from "../assets/images/pizza-app.png";
 import portfolioImage from "../assets/images/portfolio.png";
 import hangmanImage from "../assets/images/hangman.jpg";
 import speedTypingImage from "../assets/images/typing-speed.jpg";
+import memoryGameImage from "../assets/images/memory-game.jpeg";
 
 export const projects = [
     {
@@ -75,6 +76,17 @@ export const projects = [
         technologies: ["HTML", "CSS", "JS"],
         githubUrl: "https://github.com/MoomenEltelbany/Typing-Speed-Test",
         liveUrl: "https://moomeneltelbany.github.io/Typing-Speed-Test/",
+        published: true,
+    },
+    {
+        id: 7,
+        image: memoryGameImage,
+        title: "Memory Game",
+        description:
+            "Flip, match, and flex your brain! Built with HTML, CSS & JS—fast, fun, and totally addictive. How sharp is your memory? Let's find out!",
+        technologies: ["HTML", "CSS", "JS"],
+        githubUrl: "https://github.com/MoomenEltelbany/Memory-Game",
+        liveUrl: "https://moomeneltelbany.github.io/Memory-Game/",
         published: true,
     },
 ];
