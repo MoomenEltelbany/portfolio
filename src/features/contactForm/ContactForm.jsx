@@ -79,9 +79,9 @@ function ContactForm() {
                 <input
                     {...register("email", { required: "Email is required" })}
                     className={`w-full p-2 rounded bg-slate-700 text-white border border-slate-600 
-               transition-all duration-300 focus:border-blue-400 focus:ring-2 
-               focus:ring-blue-500 focus:outline-none
-               ${errors.email ? "border-red-400" : ""}`}
+                transition-all duration-300 focus:border-blue-400 focus:ring-2 
+                focus:ring-blue-500 focus:outline-none
+                ${errors.email ? "border-red-400" : ""}`}
                     placeholder="email@example.com"
                 />
 
@@ -103,9 +103,9 @@ function ContactForm() {
                         required: "Subject is required",
                     })}
                     className={`w-full p-2 rounded bg-slate-700 text-white border border-slate-600 
-               transition-all duration-300 focus:border-blue-400 focus:ring-2 
-               focus:ring-blue-500 focus:outline-none
-               ${errors.subject ? "border-red-400" : ""}`}
+                transition-all duration-300 focus:border-blue-400 focus:ring-2 
+                focus:ring-blue-500 focus:outline-none
+                ${errors.subject ? "border-red-400" : ""}`}
                     placeholder="Your subject"
                 />
 
