@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 
 export default function Profile() {
     return (
-        <main className="p-10 bg-slate-900 flex flex-col justify-center items-start h-full text-[50px] relative">
-            <p className="absolute text-[70px] md:text-[100px] z-0 top-[-10px] left-0 text-[#042341]/80 font-extrabold text-center uppercase">
+        <main className="px-4 py-8 sm:px-6 md:px-10 bg-slate-900 flex flex-col justify-center items-start h-full text-[36px] sm:text-[44px] md:text-[50px] relative">
+            <p className="absolute text-[48px] sm:text-[70px] md:text-[100px] z-0 top-[-10px] left-0 text-[#042341]/80 font-extrabold text-center uppercase">
                 Love building websites
             </p>
             <TextType
@@ -27,25 +27,25 @@ export default function Profile() {
                 loop={true}
                 cursorCharacter="|"
                 textColors={["oklch(44.6% 0.043 257.281)"]}
-                className="text-[40px] mb-10 relative z-10"
+                className="text-[28px] sm:text-[32px] md:text-[40px] mb-10 relative z-10"
             />
             <div className="text-white text-sm flex gap-2">
                 <NavLink
                     to="/projects"
-                    className="bg-slate-800 py-2 px-3 text-lg rounded-2xl hover:bg-slate-400 hover:text-slate-900 transition-all duration-200"
+                    className="bg-slate-800 py-2 px-3 text-base sm:text-lg rounded-2xl hover:bg-slate-400 hover:text-slate-900 transition-all duration-200"
                 >
                     See my work
                 </NavLink>
                 <NavLink
                     to="../../public/resume.pdf"
                     download="resume.pdf"
-                    className="bg-slate-800 py-2 px-3 text-lg rounded-2xl hover:bg-slate-400 hover:text-slate-900 transition-all duration-200"
+                    className="bg-slate-800 py-2 px-3 text-base sm:text-lg rounded-2xl hover:bg-slate-400 hover:text-slate-900 transition-all duration-200"
                     target="_blank"
                 >
                     Download my CV
                 </NavLink>
             </div>
-            <div className="fixed z-0 bottom-11 right-11 h-[26rem] w-[26rem] hidden md:flex justify-end items-end">
+            <div className="fixed z-0 bottom-6 right-6 sm:bottom-8 sm:right-8 md:bottom-11 md:right-11 h-[18rem] w-[18rem] sm:h-[22rem] sm:w-[22rem] md:h-[26rem] md:w-[26rem] hidden md:flex justify-end items-end">
                 <Cubes
                     gridSize={8}
                     maxAngle={90}

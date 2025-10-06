@@ -6,8 +6,8 @@ function About() {
     const navigate = useNavigate();
 
     return (
-        <main className="bg-slate-900 h-dvh flex justify-center items-center">
-            <section className="bg-slate-900">
+        <main className="bg-slate-900 min-h-dvh flex justify-center items-center px-4 py-8 sm:px-6 md:px-10">
+            <section className="bg-slate-900 w-full max-w-3xl">
                 <div className="bg-slate-900">
                     <ProfileCard
                         name="Moomen ELtelbany"

@@ -7,12 +7,12 @@ import Footer from "../components/common/Footer/Footer";
 
 function AppLayout() {
     return (
-        <div className="flex flex-col h-[100vh]">
+        <div className="flex flex-col min-h-dvh">
             <Header />
-            <main className="flex flex-grow">
+            <main className="flex flex-col md:flex-row flex-grow">
                 <SideNavLinks />
                 <Portfolio />
-                <section className="bg-slate-800 flex-grow">
+                <section className="bg-slate-800 flex-grow min-h-[50vh] px-4 sm:px-6 md:px-8">
                     <PortfolioMenuList direction="row" />
                     <Outlet />
                 </section>

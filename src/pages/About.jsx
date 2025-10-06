@@ -8,25 +8,25 @@ import { SkillsItem } from "../components";
 
 function About() {
     return (
-        <main className="bg-slate-900 p-10 text-slate-400 text-center h-full">
+        <main className="bg-slate-900 px-4 py-8 sm:px-6 md:px-10 text-slate-400 text-center h-full max-w-5xl mx-auto">
             <section>
                 <div>
-                    <h3 className="text-[28px] font-bold text-slate-100">
+                    <h3 className="text-2xl sm:text-3xl font-bold text-slate-100">
                         Front-End
                     </h3>
-                    <h3 className="text-[40px] font-bold text-slate-100">
+                    <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-100">
                         React Developer
                     </h3>
-                    <p className="text-lg">
+                    <p className="text-base sm:text-lg">
                         Hi, I'm Moomen ELtelbany. A passionate Front-end React
                         Developer based in Cairo,Egypt. 📍
                     </p>
                 </div>
                 <div className="mt-7">
-                    <h3 className="text-[28px] font-bold text-slate-100">
+                    <h3 className="text-2xl sm:text-3xl font-bold text-slate-100">
                         About Me
                     </h3>
-                    <p className="text-lg tracking-wide max-w-[800px] mx-auto text-center">
+                    <p className="text-base sm:text-lg tracking-wide max-w-[800px] mx-auto text-center px-2">
                         I'm a self-taught Front-End Developer specializing in
                         HTML, CSS, JavaScript, React, and Tailwind CSS. While
                         I'm early in my career, I'm committed to writing clean,
@@ -40,8 +40,10 @@ function About() {
                 </div>
             </section>
             <section className="mt-7 flex flex-col items-center">
-                <h3 className="text-[28px] text-slate-100">Tech Stack</h3>
-                <ul className="flex justify-start items-start gap-4 text-[28px] mt-4">
+                <h3 className="text-2xl sm:text-3xl text-slate-100">
+                    Tech Stack
+                </h3>
+                <ul className="flex flex-wrap justify-center sm:justify-start items-start gap-3 sm:gap-4 text-2xl sm:text-3xl mt-4 max-w-[900px]">
                     <SkillsItem
                         icon={FaHtml5}
                         color="text-red-400"

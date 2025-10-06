@@ -23,11 +23,11 @@ const SOCIALS = [
 
 function Contact() {
     return (
-        <main className="p-10 bg-slate-900 h-full">
-            <h3 className="uppercase text-slate-100 text-[32px] tracking-wide">
+        <main className="bg-slate-900 h-full px-4 py-8 sm:px-6 md:px-10">
+            <h3 className="uppercase text-slate-100 text-2xl sm:text-3xl tracking-wide">
                 Reach Out Via Socials
             </h3>
-            <div className="text-slate-400 text-[28px] flex items-center">
+            <div className="text-slate-400 text-xl sm:text-2xl flex items-center mt-4">
                 <span>1</span>
                 <p className="ml-4">.socials {`{`}</p>
             </div>
@@ -35,10 +35,10 @@ function Contact() {
                 return (
                     <div
                         key={social.number}
-                        className="text-slate-400 text-[28px] flex items-center"
+                        className="text-slate-400 text-xl sm:text-2xl flex items-center"
                     >
                         <span>{social.number}</span>
-                        <p className="ml-12">
+                        <p className="ml-6 sm:ml-12">
                             {social.label}
                             <a
                                 href={social.link}
@@ -52,7 +52,7 @@ function Contact() {
                 );
             })}
 
-            <div className="text-slate-400 text-[28px] flex items-center">
+            <div className="text-slate-400 text-xl sm:text-2xl flex items-center">
                 <span>5</span>
                 <p className="ml-4">{`}`}</p>
             </div>
