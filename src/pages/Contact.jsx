@@ -1,4 +1,4 @@
-import ContactForm from "../features/contactForm/ContactForm";
+import ContactForm from "../components/contactForm/ContactForm";
 
 const SOCIALS = [
     {
@@ -23,7 +23,7 @@ const SOCIALS = [
 
 function Contact() {
     return (
-        <main className="bg-slate-900 h-full px-4 py-8 sm:px-6 md:px-10">
+        <main className="bg-slate-900 h-dvh px-4 py-8 sm:px-6 md:px-10">
             <h3 className="uppercase text-slate-100 text-2xl sm:text-3xl tracking-wide">
                 Reach Out Via Socials
             </h3>
@@ -57,7 +57,6 @@ function Contact() {
                 <p className="ml-4">{`}`}</p>
             </div>
 
-            {/* !TODO ADD THE REACT HOOK FORM */}
             <ContactForm />
         </main>
     );

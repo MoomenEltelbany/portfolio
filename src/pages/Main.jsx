@@ -1,4 +1,4 @@
-import { PortfolioMenuList } from "../components";
+import PortfolioMenuList from "../components/portfolio/PortfolioMenu/PortfolioMenuList";
 
 function Main() {
     return (

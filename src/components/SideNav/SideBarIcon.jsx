@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 // eslint-disable-next-line no-unused-vars
-function SideBarIcon({ icon: Icon, marginTop = false, to }) {
+function SideBarIcon({ icon: Icon, marginTop = false, to = "/" }) {
     const containerClasses = [
         "sidebar-item",
         "cursor-pointer",

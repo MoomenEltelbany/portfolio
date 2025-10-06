@@ -1,5 +1,5 @@
 import PortfolioMenuItem from "./PortfolioMenuItem";
-import { portfolioNavItems } from "../../../constants";
+import portfolioNavItems from "../../../constants/portfolioNavItems";
 
 function PortfolioMenuList({ direction = "col" }) {
     return (

@@ -1,4 +1,4 @@
-import { portfolioNavItems } from "../../../constants";
+import portfolioNavItems from "../../../constants/portfolioNavItems";
 import PortfolioMenuItem from "./PortfolioMenuItem";
 
 function Portfolio() {

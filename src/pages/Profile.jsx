@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Profile() {
     return (
-        <main className="px-4 py-8 sm:px-6 md:px-10 bg-slate-900 flex flex-col justify-center items-start h-full text-[36px] sm:text-[44px] md:text-[50px] relative">
+        <main className="px-4 py-8 sm:px-6 md:px-10 bg-slate-900 flex flex-col justify-center items-start h-dvh text-[36px] sm:text-[44px] md:text-[50px] relative">
             <p className="absolute text-[48px] sm:text-[70px] md:text-[100px] z-0 top-[-10px] left-0 text-[#042341]/80 font-extrabold text-center uppercase">
                 Love building websites
             </p>

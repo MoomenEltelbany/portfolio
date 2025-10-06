@@ -4,11 +4,11 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
-import { SkillsItem } from "../components";
+import SkillsItem from "../components/ui/SkillsItem";
 
 function About() {
     return (
-        <main className="bg-slate-900 px-4 py-8 sm:px-6 md:px-10 text-slate-400 text-center h-full max-w-6xl mx-auto">
+        <main className="bg-slate-900 px-4 py-8 sm:px-6 md:px-10 text-slate-400 text-center h-dvh max-w-6xl mx-auto">
             <section>
                 <div>
                     <h3 className="text-2xl sm:text-3xl font-bold text-slate-100">

@@ -1,9 +1,9 @@
 import { Outlet } from "react-router-dom";
 import PortfolioMenuList from "../components/portfolio/PortfolioMenu/PortfolioMenuList";
 import Portfolio from "../components/portfolio/PortfolioMenu/Portfolio";
-import SideNavLinks from "../components/common/SideNav/SideNavLinks";
-import Header from "../components/common/Header/Header";
-import Footer from "../components/common/Footer/Footer";
+import SideNavLinks from "../components/SideNav/SideNavLinks";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 function AppLayout() {
     return (
