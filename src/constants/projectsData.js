@@ -46,7 +46,7 @@ export const projects = [
     },
     {
         id: 4,
-        title: "Hangman Game",
+        title: "My Portfolio",
         image: portfolioImage,
         description:
             "A modern, responsive portfolio website built with React, Vite, and Tailwind CSS",
