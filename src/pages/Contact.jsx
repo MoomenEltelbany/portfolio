@@ -23,7 +23,7 @@ const SOCIALS = [
 
 function Contact() {
     return (
-        <main className="bg-slate-900 h-dvh px-4 py-8 sm:px-6 md:px-10">
+        <main className="bg-slate-900 h-dvh px-4 py-8 sm:px-6 md:px-10 scrollbar-primary overflow-auto">
             <h3 className="uppercase text-slate-100 text-2xl sm:text-3xl tracking-wide">
                 Reach Out Via Socials
             </h3>

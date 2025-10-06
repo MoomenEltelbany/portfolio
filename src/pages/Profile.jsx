@@ -45,7 +45,7 @@ export default function Profile() {
                     Download my CV
                 </NavLink>
             </div>
-            <div className="fixed z-0 bottom-6 right-6 sm:bottom-8 sm:right-8 md:bottom-11 md:right-11 h-[18rem] w-[18rem] sm:h-[22rem] sm:w-[22rem] md:h-[26rem] md:w-[26rem] hidden md:flex justify-end items-end">
+            <div className="fixed z-0 bottom-6 right-6 sm:bottom-8 sm:right-8 md:bottom-20 md:right-16 h-[18rem] w-[18rem] sm:h-[22rem] sm:w-[22rem] md:h-[26rem] md:w-[26rem] hidden md:flex justify-end items-end">
                 <Cubes
                     gridSize={8}
                     maxAngle={90}

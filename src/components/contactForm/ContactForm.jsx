@@ -129,7 +129,7 @@ function ContactForm() {
                     className="w-full p-2 rounded bg-slate-700 text-white h-32 
                 border border-slate-600 transition-all duration-300 
                 focus:border-blue-400 focus:ring-2 focus:ring-blue-500 
-                focus:outline-none"
+                focus:outline-none resize-none"
                     placeholder="Your message here..."
                 />
 
