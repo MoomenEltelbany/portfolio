@@ -1,5 +1,5 @@
 import hotelImage from "../assets/images/wild-oasis.jpg";
-import worldWiseImage from "../assets/images/world-wise.png";
+// import worldWiseImage from "../assets/images/world-wise.png";
 import pizzaImage from "../assets/images/pizza-app.png";
 import portfolioImage from "../assets/images/portfolio.png";
 import hangmanImage from "../assets/images/hangman.jpg";

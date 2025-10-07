@@ -36,14 +36,15 @@ export default function Profile() {
                 >
                     See my work
                 </NavLink>
-                <NavLink
-                    to="../../public/resume.pdf"
+                <a
+                    href="/resume.pdf"
                     download="resume.pdf"
                     className="bg-slate-800 py-2 px-3 text-base sm:text-lg rounded-2xl hover:bg-slate-400 hover:text-slate-900 transition-all duration-200"
+                    rel="noopener noreferrer"
                     target="_blank"
                 >
                     Download my CV
-                </NavLink>
+                </a>
             </div>
             <div className="fixed z-0 bottom-6 right-6 sm:bottom-8 sm:right-8 md:bottom-20 md:right-16 h-[18rem] w-[18rem] sm:h-[22rem] sm:w-[22rem] md:h-[26rem] md:w-[26rem] hidden md:flex justify-end items-end">
                 <Cubes
