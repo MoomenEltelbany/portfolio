@@ -5,6 +5,7 @@ import portfolioImage from "../assets/images/portfolio.png";
 import hangmanImage from "../assets/images/hangman.jpg";
 import speedTypingImage from "../assets/images/typing-speed.jpg";
 import memoryGameImage from "../assets/images/memory-game.jpeg";
+import formulaOneImage from "../assets/images/F1-logo.png";
 
 export const projects = [
     {
@@ -23,6 +24,17 @@ export const projects = [
         githubUrl: "https://github.com/MoomenEltelbany/the-wild-oasis",
         liveUrl: "#",
         published: false,
+    },
+    {
+        id: 8,
+        title: "Formula 1 Dashboard",
+        image: formulaOneImage,
+        description:
+            "A modern, responsive web application for Formula One enthusiasts to explore drivers, teams, races, and standings from the world of Formula One racing.",
+        technologies: ["React", "Tailwind", "React Router", "Three.js"],
+        githubUrl: "https://github.com/MoomenEltelbany/formula-one",
+        liveUrl: "https://formula-one-eight.vercel.app/",
+        published: true,
     },
     {
         id: 2,

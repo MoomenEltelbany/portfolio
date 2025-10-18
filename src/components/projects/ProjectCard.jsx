@@ -14,7 +14,7 @@ function ProjectCard({ project }) {
     return (
         <div className="bg-slate-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col h-full">
             {image && (
-                <div className="h-48 overflow-hidden">
+                <div className="h-48 overflow-hidden bg-black">
                     <img
                         src={image}
                         alt={title}
