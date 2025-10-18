@@ -22,7 +22,7 @@ export default function Profile() {
             <TextType
                 text={[
                     "Front-end Developer",
-                    "I build modern, and responsive apps with React.”",
+                    "I build modern, and responsive apps with React",
                 ]}
                 typingSpeed={100}
                 pauseDuration={1500}
