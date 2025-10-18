@@ -20,7 +20,10 @@ export default function Profile() {
                 className="relative z-10"
             />
             <TextType
-                text={["Front-end Developer", "Creating websites for fun 😍"]}
+                text={[
+                    "Front-end Developer",
+                    "I build modern, and responsive apps with React.”",
+                ]}
                 typingSpeed={100}
                 pauseDuration={1500}
                 showCursor={true}

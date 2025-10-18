@@ -69,7 +69,7 @@ function ProjectCard({ project }) {
                     </div>
                 ) : (
                     <p className="text-slate-300 bg-slate-900 text-center py-2 px-4 rounded-xl">
-                        Coming Soon...
+                        In progress...
                     </p>
                 )}
             </div>

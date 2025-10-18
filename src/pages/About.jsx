@@ -28,14 +28,14 @@ function About() {
                     </h3>
                     <p className="text-base sm:text-lg tracking-wide max-w-[800px] mx-auto text-center px-2">
                         I'm a self-taught Front-End Developer specializing in
-                        HTML, CSS, JavaScript, React, and Tailwind CSS. While
-                        I'm early in my career, I'm committed to writing clean,
-                        maintainable code and building responsive websites that
-                        work smoothly across all devices. I'm actively building
-                        my portfolio with real projects and I'm eager to bring
-                        value to clients who need reliable, modern web
-                        solutions. I learn fast, communicate clearly, and I'm
-                        ready to prove myself.
+                        React, JavaScript, and Tailwind CSS. I'm passionate
+                        about writing clean, maintainable code and building
+                        responsive, accessible web experiences. Currently, I'm
+                        focused on sharpening my skills through real-world
+                        projects and exploring opportunities to bring value to
+                        modern teams. I learn fast, communicate clearly, and
+                        love transforming ideas into functional, elegant
+                        interfaces.
                     </p>
                 </div>
             </section>

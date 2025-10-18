@@ -20,15 +20,15 @@ function ContactForm() {
         try {
             // Send email using EmailJS
             await emailjs.send(
-                "service_84al2lp", // You'll get this from EmailJS
-                "template_ryvscgm", // You'll get this from EmailJS
+                "service_84al2lp",
+                "template_ryvscgm",
                 {
                     from_name: data.name,
                     from_email: data.email,
                     subject: data.subject,
                     message: data.message,
                 },
-                "7XVRmC8Kq3pVQLDff" // You'll get this from EmailJS
+                "7XVRmC8Kq3pVQLDff"
             );
 
             setSubmitMessage("Message sent successfully! 🎉");
@@ -46,7 +46,12 @@ function ContactForm() {
             onSubmit={handleSubmit(onSubmit)}
             className="max-w-lg mx-auto p-6 bg-slate-800 rounded-lg"
         >
-            <h2 className="text-2xl text-white mb-6">Contact Me</h2>
+            <h2 className="text-2xl text-white mb-6">Get in Touch</h2>
+
+            <p className="text-lg text-slate-300 mb-6">
+                I'm open to junior front-end roles, collaborations, or
+                mentorship opportunities.
+            </p>
 
             {/* Name Field */}
             <div className="mb-4 group focus-within:text-blue-400">
