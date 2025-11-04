@@ -6,6 +6,7 @@ import hangmanImage from "../assets/images/hangman.jpg";
 import speedTypingImage from "../assets/images/typing-speed.jpg";
 import memoryGameImage from "../assets/images/memory-game.jpeg";
 import formulaOneImage from "../assets/images/F1-logo.png";
+import cineverseImage from "../assets/images/cineverse.png";
 
 export const projects = [
     {
@@ -24,6 +25,23 @@ export const projects = [
         githubUrl: "https://github.com/MoomenEltelbany/the-wild-oasis",
         liveUrl: "#",
         published: false,
+    },
+    {
+        id: 9,
+        title: "Cineverse",
+        image: cineverseImage,
+        description:
+            "A responsive movie web app with live content updates and powerful search to explore trending and new releases.",
+        technologies: [
+            "React",
+            "React Router",
+            "Tailwind",
+            "Material UI",
+            "Swiper",
+        ],
+        githubUrl: "https://github.com/MoomenEltelbany/cinverse",
+        liveUrl: "https://cinverse.vercel.app/",
+        published: true,
     },
     {
         id: 8,
