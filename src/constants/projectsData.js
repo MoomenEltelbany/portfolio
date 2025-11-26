@@ -24,7 +24,7 @@ export const projects = [
             "Recharts",
         ],
         githubUrl: "https://github.com/MoomenEltelbany/the-wild-oasis",
-        liveUrl: "the-wild-oasis-hotel-seven.vercel.app",
+        liveUrl: "https://the-wild-oasis-hotel-seven.vercel.app",
         published: true,
     },
     {
