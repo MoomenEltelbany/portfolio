@@ -18,13 +18,14 @@ export const projects = [
         technologies: [
             "React",
             "Supabase",
-            "Styled Component",
+            "Styled Components",
             "React Router",
             "React Query",
+            "Recharts",
         ],
         githubUrl: "https://github.com/MoomenEltelbany/the-wild-oasis",
-        liveUrl: "#",
-        published: false,
+        liveUrl: "the-wild-oasis-hotel-seven.vercel.app",
+        published: true,
     },
     {
         id: 9,
