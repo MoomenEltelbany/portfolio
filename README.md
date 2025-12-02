@@ -1,16 +1,66 @@
-# React + Vite
+# Moomen Eltelbany Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern, responsive portfolio built with React, Vite, and Tailwind CSS. It showcases my work, skills, and ways to get in touch—all wrapped in a clean, developer-friendly UI with smooth interactions.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   https://moomen-portfolio.vercel.app/profile
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   Responsive layout with a sticky navigation panel and section shortcuts for quick exploration.
+-   Typing hero header and 3D-inspired cube animation to introduce the profile with personality.
+-   Projects gallery with covers, tech stack tags, GitHub links, and live demos.
+-   Contact page with social links plus a validated EmailJS-powered form built on `react-hook-form`.
+-   Downloadable CV link and dedicated About section to summarize skills and experience.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   React 19 + Vite 6
+-   Tailwind CSS for styling
+-   React Router for page routing
+-   GSAP animations and custom UI components
+-   EmailJS + React Hook Form for contact handling
+
+## Getting Started
+
+1. Install dependencies
+
+```bash
+npm install
+```
+
+2. Run the development server
+
+```bash
+npm run dev
+```
+
+3. Build for production
+
+```bash
+npm run build
+```
+
+4. Preview the production build locally
+
+```bash
+npm run preview
+```
+
+5. Lint the project
+
+```bash
+npm run lint
+```
+
+## Project Structure
+
+-   `src/pages`: Route-level views (Profile, About, Projects, Contact, Card).
+-   `src/components`: Reusable UI elements, navigation, header/footer, and contact form.
+-   `src/constants/projectsData.js`: Portfolio projects with images, descriptions, and links.
+-   `public/resume.pdf`: Downloadable CV referenced from the profile page.
+
+## Deployment
+
+The site is deployed on Vercel. Build output lives in `dist/` after running `npm run build`. Deploy the `dist` folder or connect the repository directly to Vercel for automatic builds on push.
